@@ -1,0 +1,142 @@
+{
+    "controls": {
+        "common": {
+            "Forward": {
+                "key": "W",
+                "keyCode": "87"
+            },
+            "Back": {
+                "key": "S",
+                "keyCode": "83"
+            },
+            "Right": {
+                "key": "D",
+                "keyCode": "68"
+            },
+            "Left": {
+                "key": "A",
+                "keyCode": "65"
+            },
+            "Up": {
+                "key": "Space",
+                "keyCode": "32"
+            },
+            "Down": {
+                "key": "L Shift",
+                "keyCode": "16"
+            },
+            "Pause": {
+                "key": "E",
+                "keyCode": "69"
+            },
+            "RotateL": {
+                "key": "L mouse click",
+                "keyCode": "37"
+            },
+            "RotateR": {
+                "key": "R mouse click",
+                "keyCode": "39"
+            },
+            "Zoom": {
+                "key": "Scroll",
+                "keyCode": "39"
+            }
+        },
+        "controls0": {
+            "Forward": {
+                "key": "W",
+                "keyCode": "87"
+            },
+            "Back": {
+                "key": "S",
+                "keyCode": "83"
+            },
+            "Right": {
+                "key": "D",
+                "keyCode": "68"
+            },
+            "Left": {
+                "key": "A",
+                "keyCode": "65"
+            }
+        },
+        "controls1": {
+            "Forward": {
+                "key": "W",
+                "keyCode": "65"
+            },
+            "Back": {
+                "key": "S",
+                "keyCode": "68"
+            },
+            "Right": {
+                "key": "D",
+                "keyCode": "87"
+            },
+            "Left": {
+                "key": "A",
+                "keyCode": "83"
+            }
+        },
+        "controls2": {
+            "Forward": {
+                "key": "W",
+                "keyCode": "83"
+            },
+            "Back": {
+                "key": "S",
+                "keyCode": "87"
+            },
+            "Right": {
+                "key": "D",
+                "keyCode": "65"
+            },
+            "Left": {
+                "key": "A",
+                "keyCode": "68"
+            }
+        },
+        "controls3": {
+            "Forward": {
+                "key": "W",
+                "keyCode": "68"
+            },
+            "Back": {
+                "key": "S",
+                "keyCode": "65"
+            },
+            "Right": {
+                "key": "D",
+                "keyCode": "83"
+            },
+            "Left": {
+                "key": "A",
+                "keyCode": "87"
+            }
+        }   
+    },
+    "sounds": {
+        "main": {
+            "url": "./sounds/maintheme.mp3"
+        },
+        "click": {
+            "url": "./sounds/click.wav"
+        },
+        "eat": {
+            "url": "./sounds/eat.wav"
+        },
+        "translate": {
+            "url": "./sounds/translate.wav"
+        },
+        "control": {
+            "url": "./sounds/control.wav"
+        },
+        "colapse": {
+            "url": "./sounds/colapse.wav"
+        },
+        "rotate": {
+            "url": "./sounds/rotate.wav"
+        }
+    }
+    
+}

@@ -1,0 +1,164 @@
+@import '_common.less';
+@import '_fonts.less';
+@import '_layouts.less';
+@import '_modules';
+@import 'helpers/_all';
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,900&subset=cyrillic');
+
+body, html{
+    overflow: hidden;
+    overscroll-behavior: none;
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+}
+
+// GUI Controls
+.guiControls{
+    color: white;
+    font-family: Montserrat;
+    font-weight: 100;
+    font-size: 12px;
+    position: absolute;
+    bottom: 0;
+    right: 12px;
+
+    &_item{
+        display: flex;
+        align-content: center;
+        margin-bottom: 12px;
+    }
+}
+
+
+.actionName{
+    align-self: center;
+}
+
+.buttonName{
+    padding: 4px;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.3);
+    margin-right: 5px;
+}
+
+// menu
+.menu{
+    opacity: 0;
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000000;
+
+
+    &_wrapper{
+        height: 100%;
+        width: 100%;
+        position: relative;
+    }
+
+    &_content{
+        .center;
+        text-align: center;
+    }
+    &_game-name{
+        font-family: Montserrat;
+        font-weight: 800;
+        font-size: 170px;
+        color: white;
+        display: block;
+        position: relative;
+    }
+
+    &_domain{
+        font-size: 22px;
+        font-weight: 600;
+        position: absolute;
+        bottom: 15px;
+        right: 5px;
+        opacity: 0.8;
+    }
+
+    &_play{
+        color: white;
+        font-family: Montserrat;
+        font-weight: 300;
+        font-size: 30px;
+        padding: 15px 35px;
+        border-radius: 5px;
+        display: inline-block;
+        background: rgba(255, 255, 255, 0.24);
+        cursor: pointer;
+    
+        transition: background 0.3s ease;
+    
+        &:hover{
+            background: rgb(255, 195, 65);
+        }
+    }
+
+    &_bestScore{
+        color: white;
+        font-family: Montserrat;
+        font-weight: 300;
+        margin-top: 15px;
+        font-size: 16px;
+        opacity: 0.7;
+    }
+
+    &_mail{
+        color: white;
+        position: absolute;
+        bottom: 20px;
+        right: 20px;
+        font-family: Montserrat;
+        font-size: 14px;
+        opacity: 0.5;
+    }
+}
+
+
+
+
+
+
+.mobile{
+    display: none;
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    z-index: 10000000;
+    background: #21bfe1;
+    color: white;
+    font-family: Montserrat;
+    text-align: center;
+
+    &__true{
+        display: block;
+    }
+
+    &_content{
+        .center;
+    }
+
+    &_text{
+        font-size: 18px;
+
+        &__big{
+            font-size: 100px;
+            font-weight: 700;
+        }
+    }
+}
+
+
+.dg.ac{
+    z-index: 1000000000!important;
+}
+
+
+
+
